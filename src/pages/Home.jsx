@@ -1,12 +1,23 @@
 import React from "react";
+import Layout from "./Layout";
+
+const Home = () => {
+    return (<>
 
 
-const Home = ({ }) => {
+        <div className="container">
+            <div className="box">
 
+            </div>
+            <div className="box">
 
-    return <h1>Home</h1>
-}
+            </div>
+            <div className="box">
 
+            </div>
+        </div>
+    </>);
+};
 
 
 
