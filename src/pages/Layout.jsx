@@ -1,7 +1,7 @@
 import { Link, Outlet } from "react-router-dom"
 import "./style.css"
 
-const Layout = (employee, company, product) => {
+const Layout = () => {
     return <>
         <nav>
             <ul>

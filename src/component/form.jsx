@@ -21,8 +21,8 @@ const Company = ({ }) => {
     }
     const Submit = (event) => {
         event.preventDefault();
-        alert(`Comapnay name is ${company.CompanyName}.
-             it is directed by th ${company.ComapnyCeo} 
+        alert(`Comapnay name is ${company.companyName}.
+             it is directed by th ${company.companyCeo} 
             . the main branch of the company is in ${company.companyLocation} . 
             It is is kind of ${company.comapnyType}.
              The first one one who start the company was${company.companyFounder} . `);

@@ -7,7 +7,7 @@ import Navbar from "./navbar";
 import Employee from "./Employee";
 
 
-function App() {
+function Contact() {
     return (
         <Router>
             <Routes>
@@ -19,4 +19,4 @@ function App() {
     );
 }
 
-export default App
+export default Contact
