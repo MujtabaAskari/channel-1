@@ -1,0 +1,37 @@
+.card-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #95dada;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 25px;
+    cursor: pointer;
+    -moz-osx-font-smoothing: grayscale;
+    backface-visibility: hidden;
+    transform: translateZ(0);
+    transition: transform 0.25s ease-out;
+}
+
+.card-container:hover {
+    transform: scale(1.05);
+}
+
+.card-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 25px;
+    margin: 0 auto;
+
+}
+
+body {
+    background: linear-gradient(to left, rgb(74, 129, 165), rgb(176, 148, 70));
+
+
+}
+
+.bigelow-rules-regular {
+    font-family: "Bigelow Rules", serif;
+    font-weight: 400;
+    font-style: normal;
+}
